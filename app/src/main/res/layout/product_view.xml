@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/id_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID = 1" />
+
+    <TextView
+        android:id="@+id/name_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dien thoai Xiaomi"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/price_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price: 1000"
+        android:gravity="right"
+        tools:ignore="RtlHardcoded" />
+
+</LinearLayout>
